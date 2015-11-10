@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>slide</title>
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="slide.js"></script>
+	<style>
+
+        ul {
+            
+            display: none;
+            
+        }
+        
+        li {
+            
+            position: relative;
+            display: inline;
+            list-style-image: none;
+            
+        }
+        
+        span {
+            
+            top: -15px;
+            left: 55px;
+            color: white;
+            padding: 5px 5px;
+            background-color: rgba(0, 0, 0, 0.55);
+            position: absolute;
+            display: none;
+        
+            
+        }
+    
+        
+    </style>
+</head>
+    
+<body>
+    <div id="tour">
+        <h2>Paris, France Tour</h2>
+        <p>$2,499 for 7 Nights</p>
+        <button id="toggle">See photos (toggle)</button>
+        <button id="slidedown">See photos (slideDown)</button>
+        <button id="slideup">See photos (slideUp)</button>
+        <ul class="photos">
+            <li>
+                <img src="img/paris1.jpg">
+                <span>Arc de Triomphe</span>
+            </li>
+            <li>
+              <img src="img/paris2.jpg">
+              <span>The Eiffel Tower</span>
+            </li>
+            <li>
+              <img src="img/paris3.jpg">
+              <span>Notre Dame de Paris</span>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
