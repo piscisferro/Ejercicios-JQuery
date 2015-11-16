@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Titulo Documento</title>
+        <script src="jquery-2.1.4.min.js"></script>
+        <script src="manipulatingcss.js"></script>
+        
+        <style>
+            body {
+                
+                background-color: #515057;
+                
+            }
+            
+            li {
+                
+                list-style-image: none;
+            }
+            
+            h1, h2 {
+                
+                margin-left: 10px;
+                color: white;
+                
+            }
+            
+            .tour {
+
+                margin: 30px;
+                display: inline-block;
+                width: 250px;
+                background-color: gray;
+                
+            }
+            
+            .details {
+	
+                text-align: center;
+                display: block;
+                margin: 5px auto;
+                width: 225px;
+                background-color: skyblue;
+                
+            }
+            
+            .per-night {
+                
+                text-align: center;
+                display: block;
+                margin: 5px auto;
+                width: 225px;
+                background-color: #ffff97;
+	
+            }
+            
+            .book {
+	    
+                display: block;
+                margin: 5px auto;
+                width: 225px;
+                background-color: green;
+                border: 0px solid black;
+            }
+        
+            
+            .photos {
+                
+                display: none;
+            }
+            
+            .photos li {
+                
+                display: inline;
+                position: relative;
+                list-style-image: none;
+
+            }
+
+            .photos li span {
+                
+                text-align: center;
+                display: inline-block;
+                color: white;
+                top: -28px;
+                left: -15px;
+                width: 190px;
+                padding: 5px 5px;
+                background-color: rgba(0, 0, 0, 0.63);
+                position: absolute;
+
+
+            }
+            
+            img {
+                
+                display: block;
+                margin-left: -15px;
+                width: 200px;
+                
+            }
+            
+            .highlighted {
+                
+                background-color: #252b30;
+                font-weight: bold;
+                
+            }
+            
+            
+        </style>
+        
+    </head>
+
+    <body>
+        <div id="all-tours">
+            <h1>Guided Tours</h1>
+            <ul>
+                <li class="tour usa">
+                    <h2>New York, New York</h2>
+                    <span class="details">$1,899 for 7 nights</span>
+                    <span class="per-night"><span class="price">$275</span>/night</span>
+                    <button class="book">Book Now</button>
+                    <ul class="photos">
+                        <li>
+                            <img src="img/paris1.jpg">
+                            <span>Notre Dame de Paris</span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="tour france" data-discount="99">
+                    <h2>Paris, France</h2>
+                    <span class="details">$1,499 for 5 nights</span>
+                    <span class="per-night"><span class="price">$300</span>/night</span>
+                    <button class="book">Book Now</button>
+                    <ul class="photos">
+                        <li>
+                            <img src="img/paris2.jpg">
+                            <span>Brooklyn Bridge</span>
+                        </li>
+                    </ul>
+                </li>
+                <li class="tour uk" data-discount="149">
+                    <h2>London, UK</h2>
+                    <span class="details">$2,199 for 5 nights</span>
+                    <span class="per-night"><span class="price">$440</span>/night</span>
+                    <button class="book">Book Now</button>
+                    <ul class="photos">
+                        <li>
+                            <img src="img/paris3.jpg">
+                            <span>Tower of London</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
