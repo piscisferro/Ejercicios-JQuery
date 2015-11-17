@@ -1,0 +1,56 @@
+
+<!-- EXAMEN :
+
+2 LISTA DESPLEGABLE:
+CON EL NOMBRE DE LAS CAPAS. QUITAR/PONER OCULTA/MUESTRA CAPA CON TIEMPO
+
+3. PLEGAR -PLIEGA LA CAPA CONTENEDORA COMPLETA -CAMBIA TEXTO DEL BOTON A DESPLEGAR
+DESPLEGAR: VUELVE A MOSTRAR Y BORRA EL TEXTO DE ABAJO
+
+4A. PIANO CAMBIA LOS ESTILOS DE LAS CAPAS DE FORMA QUE QUEDE BLANCO Y NEGRO 
+CAMBIA TEXTO DEL BOTON A SOLOFONO
+
+5A. GUITARRA CAMBIA TAMAÑOS DE LAS CAPAS DE MENOS A MAS. CAMBIA TEXTO BOTON A NORMAL
+--> 
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Piano</title>
+        <link type="text/css" rel="stylesheet" href="piano.css">
+        <script src="jquery.js"></script>
+        <script src="piano.js"></script>
+    </head>
+    
+    <body>
+		<div id="contenedor">
+            <div id="teclado">
+                <div id="do" class="nota" data-plegado="true">Do</div>
+                <div id="re" class="nota" data-plegado="true">Re</div>
+                <div id="mi" class="nota" data-plegado="true">Mi</div>
+                <div id="fa" class="nota" data-plegado="true">Fa</div>
+                <div id="sol" class="nota" data-plegado="true">Sol</div>
+                <div id="la" class="nota" data-plegado="true">La</div>
+                <div id="si" class="nota" data-plegado="true">Si</div>
+		    </div>
+		    
+		    <div id="botones">
+                <select id="lista">
+                    <option value="do">Do</option>
+                    <option value="re">Re</option>
+                    <option value="mi">Mi</option>
+                    <option value="fa">Fa</option>
+                    <option value="sol">Sol</option>
+                    <option value="la">La</option>
+                    <option value="si">Si</option>
+                </select>
+
+                <button id="quitarponer">Quitar/Poner</button>
+                <button id="plegar">Plegar</button>
+                <button id="piano">Piano</button>
+                <button id="guitarra">Guitarra</button>
+		    </div>
+		</div>
+    </body>
+</html>

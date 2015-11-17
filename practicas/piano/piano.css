@@ -1,0 +1,64 @@
+.nota {
+                
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: -4px;
+    display: inline-block;
+
+}
+
+#botones {
+
+    margin-top: 15px;
+
+}
+
+#teclado {
+    height: 125px;
+	position: relative;
+}
+
+button {
+
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#do {
+
+    background-color: red;
+}
+
+#re {
+    background-color: orange;
+}
+
+#mi {
+
+    background-color: yellow;
+
+}
+
+#fa {
+
+    background-color: green;
+
+}
+
+#sol {
+    background-color: blue;
+}
+
+#la {
+
+    background-color: indianred;
+
+}
+
+#si {
+
+    background-color: black;
+    color: white;
+
+}
