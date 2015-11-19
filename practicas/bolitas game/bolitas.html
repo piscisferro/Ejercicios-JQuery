@@ -19,18 +19,32 @@ en cada nivel se añadira una bolita mas de colores distintos.
         <meta charset="UTF-8">
         <title>Bolitas Game</title>
         <script src="jquery.js"></script>
-        <style>
+        <script src="bolitas.js"></script>
+        <link rel="stylesheet" type="text/css" href="bolitas.css">
         
-        </style>
-        <script>
-        
-        </script>
     </head>
     
     <body>
 		<div id="contenedor">
-		
-		
+            
+            <div id="UI">
+                <div id="header">En este juego tendras que Cliquear solo la bolita del color que hayas elegido para subir de nivel.</div>
+                <p>Nivel: <span id="nivel">-</span></p>
+                <p>Vidas: <span id="vidas">-</span></p>
+                <select id="color">
+                    <option id="rojo" value="red">Rojo</option>
+                    <option id="verde" value="Green">Verde</option>
+                    <option id="rosa" value="pink">Rosa</option>
+                    <option id="morado" value="purple">Morado</option>
+                    <option id="azul" value="blue">Azul</option>
+                    <option id="amarillo" value="yellow">Amarillo</option>
+                    <option id="naranja" value="orange">Naranja</option>
+                </select>
+                <button id="start">Comenzar</button>
+            </div>
+		    <div id="gamespace">
+		        
+		    </div>	
 		</div>
     </body>
 </html>
