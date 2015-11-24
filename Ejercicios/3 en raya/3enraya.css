@@ -1,0 +1,39 @@
+#tablero {
+    
+    width: 500px;
+    height: 500px;
+    position: relative;
+    
+}
+
+.celda {
+    
+    width: 166px;
+    height: 166px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    float: left;
+        
+}
+
+#gameOver {
+    
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 4.5em;
+    
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    -webkit-align-content: center;
+}
+
+
