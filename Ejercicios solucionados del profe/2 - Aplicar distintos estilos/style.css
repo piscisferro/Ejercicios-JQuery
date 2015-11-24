@@ -1,0 +1,87 @@
+#capas {
+    width: 600px;
+}
+
+#capa1, #capa2 {
+    border: 1px solid #444444;
+    margin: 20px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+#capa1.estilo0 {
+    background: #cc0000;
+    width: 100px;
+    height: 100px;
+}
+
+#capa1.estilo1 {
+    background: #2ba1c9;
+    width: 150px;
+    height: 100px;
+}
+
+#capa1.estilo2  {
+    background: #5ac928;
+    width: 50px;
+    height: 200px;
+}
+
+#capa2.estilo0 {
+    background: #c9b801;
+    width: 200px;
+    height: 200px;
+}
+
+#capa2.estilo1 {
+    background: #c96600;
+    width: 20px;
+    height: 60px;
+}
+
+#capa2.estilo2  {
+    background: #c906ba;
+    width: 100px;
+    height: 200px;
+}
+
+#estilos1 > h4, #estilos2 > h4 {
+    background: #1f7a2f;
+    color: #ffffff;
+    padding: 3px;
+    min-width: 140px;
+    cursor: pointer;
+    margin: 0;
+}
+
+#estilos1 ul, #estilos2 ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid #1f7a2f;
+    display: none;
+}
+
+#estilos1 a, #estilos2 a {
+    display: block;
+    padding: 3px 5px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#estilos1 a:hover, #estilos2 a:hover {
+    background-color: #acbec9;
+}
+
+.columns {
+    display: table;
+}
+
+.columns > * {
+    display: table-row;
+}
+
+.columns > * > * {
+    display: table-cell;
+    vertical-align: top;
+}

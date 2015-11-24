@@ -1,0 +1,27 @@
+#capas {
+    font-size: 0;
+    width: 210px;
+}
+
+#capas > span {
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000000;
+    font-size: 16px;
+}
+
+p.error {
+    display: none;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 4px;
+    box-shadow: 3px 3px 5px #aaa;
+    border: 1px solid #660000;
+    background: #cc0000;
+}
+
+.clear {
+    clear: both;
+}

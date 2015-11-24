@@ -1,0 +1,24 @@
+#capas {
+    position: relative;
+}
+
+#horizontal, #vertical {
+    position: absolute;
+}
+
+#horizontal {
+    top: 150px;
+    width: 50px;
+    height: 50px;
+    background: #ff0000;
+    border: 1px solid #000000;
+}
+
+#vertical {
+    top: 100px;
+    left: 200px;
+    width: 50px;
+    height: 100px;
+    background: #00ff00;
+    border: 1px solid #000000;
+}
