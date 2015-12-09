@@ -7,6 +7,13 @@
     
 }
 
+#UI {
+    
+    text-align: center;
+    margin-bottom: 25px;
+    
+}
+
 .blanco, .azul {
     
     width: 80px;
@@ -25,5 +32,19 @@
 .azul {
 	
     background-color: lightblue;
+    
+}
+
+.hundido {
+    
+    background-image: url("img/barco.jpg");
+    background-size: cover;
+    
+}
+
+.agua {
+    
+    background-image: url("img/agua.jpg");
+    background-size: cover;
     
 }

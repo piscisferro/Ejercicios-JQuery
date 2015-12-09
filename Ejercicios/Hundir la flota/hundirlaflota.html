@@ -4,10 +4,18 @@
         <meta charset="UTF-8">
         <title>Hundir La Flota</title>
         <link rel="stylesheet" type="text/css" href="hundirlaflota.css">
+        <script src="jquery.js"></script>
+        <script src="hundirlaflota.js"></script>
     </head>
     
     <body>
 		<div id="contenedor">
+           <div id="UI">
+               <p>Aciertos: <span id="aciertos"></span></p>
+               <p>Fallos: <span id="fallos"></span></p>
+               <button id="comenzar">Comenzar</button>
+           </div>
+           
             <div id="tablero">
                 <div id="ancho1" class="blanco"></div>
                 <div id="ancho2" class="blanco">A</div>
